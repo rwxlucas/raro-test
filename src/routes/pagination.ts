@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getPagination } from "./controllers/paginationController";
+import { getPagination } from "../controllers/paginationController";
 
 const router = Router();
 

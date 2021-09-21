@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { adjustArray, whereBegin } from '../../utils/utils';
+import { adjustArray, whereBegin } from '../utils/utils';
 
 export const getPagination = (req: Request, res: Response) => {
 	let { current, quantity } = req.params;
